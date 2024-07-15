@@ -23,5 +23,12 @@ const config: StorybookConfig = {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/05-ignite-ui/'
+    }
+
+    return config
+  }
 };
 export default config;
