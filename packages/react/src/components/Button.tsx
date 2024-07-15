@@ -56,6 +56,10 @@ export const Button = styled('button', {
           color: '$gray200',
           borderColor: '$gray200',
         },
+
+        '&:focus': {
+          boxShadow: '0 0 0 2px $colors$gray100',
+        },
       },
 
       tertiary: {
