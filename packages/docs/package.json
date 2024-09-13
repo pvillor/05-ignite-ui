@@ -10,13 +10,13 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^8.2.3",
+    "@storybook/addons": "^7.6.17",
+    "@storybook/theming": "^8.2.2",
     "@villo-ignite-ui/eslint-config": "*",
     "@villo-ignite-ui/react": "*",
     "@villo-ignite-ui/tokens": "*",
     "@villo-ignite-ui/ts-config": "*",
-    "@storybook/addon-a11y": "^8.2.3",
-    "@storybook/addons": "^7.6.17",
-    "@storybook/theming": "^8.2.2",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^18.3.1",

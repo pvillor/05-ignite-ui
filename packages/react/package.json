@@ -14,16 +14,17 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@villo-ignite-ui/eslint-config": "*",
     "@villo-ignite-ui/tokens": "*",
     "@villo-ignite-ui/ts-config": "*",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
     "tsup": "^8.1.0",
     "typescript": "^5.5.3"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.2",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1",
     "react": "^18.3.1",
